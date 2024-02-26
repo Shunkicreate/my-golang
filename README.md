@@ -14,3 +14,4 @@ docker build -t hello-go .
 ```
 docker run -p 8080:8080 hello-go
 ```
+gcloud run deploy hello-go --image gcr.io/my-golang-415415/hello-go --platform managed --region asia-northeast1 --allow-unauthenticated
